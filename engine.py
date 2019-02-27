@@ -7,7 +7,7 @@ from mysql.connector import Error
 
 log = False
 
-def search(lang, matchAll, terms):
+def search(lang, search_for):
     try:
         connection = mysql.connector.connect(
             host='localhost',
@@ -18,13 +18,22 @@ def search(lang, matchAll, terms):
         if log:
             print("Established connection")
 
-        query = "SELECT * from descriptions"
+        query = ("""
+                SELECT *, SUM(MATCH(keyword, description) AGAINST ('"""+search_for+"""' IN BOOLEAN MODE)) as rank
+                FROM descriptions
+                WHERE MATCH(keyword, description) AGAINST ('"""+search_for+"""' IN BOOLEAN MODE) AND lang = '"""+lang+"""'
+                ORDER BY rank desc
+                LIMIT 0,10
+                """)
+
         cursor = connection.cursor()
         cursor.execute(query)
         records = cursor.fetchall()
 
+        print(records)
+
         for row in records:
-            print(row)
+            print(row[3], "    ", row[1],'\t:', row[2])
 
         cursor.close()
 
@@ -38,9 +47,8 @@ def search(lang, matchAll, terms):
                 print("Closed Connection to database")
 
 def usage():
-    print("Usage: python3 engine.py language [-A] [-v] term...")
+    print("Usage: python3 engine.py language [-v] term...")
     print("\t- language:\tprogramming language to search in (CSS, React, etc.)")
-    print("\t- -A\t\tall terms must be in description")
     print("\t- -v\t\tverbose")
     print("\t- term:\t\tterm to search for")
     exit(1)
@@ -54,12 +62,13 @@ if __name__ == '__main__':
         usage()
 
     lang = sys.argv[1]
-    matchAll = '-A' in sys.argv
     log = '-v' in sys.argv
-    terms = set([arg.lower() for arg in sys.argv[2:] if arg not in '-A-v'])
+    terms = set([arg.lower() for arg in sys.argv[2:] if arg not in '-v'])
 
     if len(terms) is 0:
         usage()
 
-    search(lang, matchAll, terms)
+    search_for = "+"+str(" +".join(terms))
+
+    search(lang, search_for)
 
