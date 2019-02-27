@@ -19,7 +19,7 @@ def search(lang, search_for):
             print("Established connection")
 
         query = ("""
-                SELECT *, SUM(MATCH(keyword, description) AGAINST ('"""+search_for+"""' IN BOOLEAN MODE)) as rank
+                SELECT *, (MATCH(keyword, description) AGAINST ('"""+search_for+"""' IN BOOLEAN MODE)) as rank
                 FROM descriptions
                 WHERE MATCH(keyword, description) AGAINST ('"""+search_for+"""' IN BOOLEAN MODE) AND lang = '"""+lang+"""'
                 ORDER BY rank desc
@@ -27,13 +27,16 @@ def search(lang, search_for):
                 """)
 
         cursor = connection.cursor()
+
         cursor.execute(query)
         records = cursor.fetchall()
 
-        print(records)
+        if not len(records):
+            print("No records found")
+            return
 
         for row in records:
-            print(row[3], "    ", row[1],'\t:', row[2])
+            print(row[1],'\t:', row[2])
 
         cursor.close()
 
