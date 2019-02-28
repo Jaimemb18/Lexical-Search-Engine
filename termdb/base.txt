@@ -21,10 +21,10 @@ CSS	background-origin
 CSS	background-position
 CSS	background-repeat
 CSS	background-size
-CSS	border	specifies the color, width, and style of an element's border
-CSS	border-style	specifies what style of border to display
-CSS	border-color	specifies a border's color
-CSS	border-width	specifies the width or thickness of a border
+CSS	border
+CSS	border-style
+CSS	border-color
+CSS	border-width
 CSS	border-bottom
 CSS	border-bottom-color
 CSS	border-bottom-left-radius
