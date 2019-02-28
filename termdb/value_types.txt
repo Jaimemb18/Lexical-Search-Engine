@@ -1,0 +1,20 @@
+CSS	cm	centimeters
+CSS	mm	millimeters
+CSS	in	inches (1in = 96px)
+CSS	px	pixels (1px = 1/96th of 1in)
+CSS	pt	points (1pt = 1/72th of 1in)
+CSS	pc	picas (1pc = 12pt)
+CSS	em	relative to the font-size of the element (2em is 2x current font)
+CSS	ex	relative to the x-height of the current font
+CSS	ch	relative to width of the "0"
+CSS	rem	relative to font-size of the root element
+CSS	vw	relative to 1% of the width of the viewport
+CSS	vh	relative to 1% of the height of the viewport
+CSS	vmin	relative to 1% of the viewport's smaller dimension
+CSS	vmax	relative to 1% of the viewport's larger dimension
+CSS	%	relative to the parent element
+CSS	rgb	0-255 rgb values i.e. rgb(1,2,3)
+CSS	hex	hex value #0A1B2C
+CSS	int	integer value
+CSS	bool	boolean value true or false
+CSS	string	string value

@@ -1,0 +1,227 @@
+CSS	align-content	specifies the alignment between the lines inside a flexible container when the items do not use all available space
+CSS	align-items	specifies the alignment for items inside a flexible container
+CSS	align-self	specifies the alignment for selected items inside a flexible container
+CSS	all	Resets all properties, except unicode-bidi and direction
+CSS	animation	A shorthand property for all animation-* properties
+CSS	animation-delay	specifies a delay for the start of an animation
+CSS	animation-direction	specifies whether an animation should be played forwards, backwards or in alternate cycles
+CSS	animation-duration	specifies how long an animation should take to complete one cycle
+CSS	animation-fill-mode	specfies a style for the element when the animation is not playing, before start and after end, or both
+CSS	animation-iteration-count	specifies the number of times an animation should be played
+CSS	animation-name	specifies a name for the @keyframes animation
+CSS	animation-play-state	specifies whether the animation is running or paused
+CSS	animation-timing-function	specifies the speed curve of an animation
+CSS	backface-visibility	defines whether or not the back face of an element should be visible when facing the user
+CSS	background	a shorthand property for all background-* properties
+CSS	background-attachment	sets whether the background image scrolls with the rest of the page or is fixed
+CSS	background-clip	specifies how far the background color or image should extend within an element
+CSS	background-blend-mode	specifies the blending mode of each background layer (color/image)
+CSS	background-image	specifies the background color of an element
+CSS	background-origin	specifies the origin position of a background image
+CSS	background-position	specifies the position of a background image
+CSS	background-repeat	sets if or how a background image will be repeated
+CSS	background-size	specifies the size of the background images
+CSS	border	specifies the color, width, and style of an element's border, shorthand
+CSS	border-style	specifies what style or of border to display 
+CSS	border-color	specifies a border's color
+CSS	border-width	specifies the width or thickness of a border
+CSS	border-bottom	shorthand for border-bottom-width, border-bottom-style and border-bottom-color
+CSS	border-bottom-color	sets the color of the bottom border
+CSS	border-bottom-left-radius	sets the radius for the bottom left corner
+CSS	border-bottom-right-radius	sets the radius for the bottom right corner
+CSS	border-bottom-width	sets the width or thickness of the bottom border
+CSS	border-bottom-style	sets the style or type of bottom border
+CSS	border-right	shorthand for the border-right-width, border-right-style and border-right-color
+CSS	border-right-color	sets the color of the right border
+CSS	border-right-width	sets the width or thickness of the right border
+CSS	border-right-style	sets the style or type of the right border
+CSS	border-left	shorthand for the border-left-width, border-left-style and border-left-color
+CSS	border-left-color	sets the color of the left border
+CSS	border-left-width	sets the width or thickness of the left border
+CSS	border-left-style	sets the style or type of the left border
+CSS	border-top	shorthand for the border-top-width, border-top-style and border-top-color
+CSS	border-top-color	sets the color of the top border
+CSS	border-top-left-radius	sets the radius for the top left corner
+CSS	border-top-right-radius	sets the radius for the top right corner
+CSS	border-top-width	sets the width or thickness of the top border
+CSS	border-top-style	sets the style or type of the top border
+CSS	border-collapse	sets whether the table borders should collapse into a single border or be separated
+CSS	border-image	shorthand for all border-image-* properties
+CSS	border-image-outset	specifies the amount by which the border image area extends beyond the border box
+CSS	border-image-repeat	specifies whether the border image should be repeated, rounded or stretched
+CSS	border-image-slice	specifies how to slice the border image
+CSS	border-image-source	specifies the path to the image to be used for the border
+CSS	border-image-width	specifies the width of the border image
+CSS	border-radius	a shorthand for all the border-radius-* properties
+CSS	border-spacing	sets the distance between the border of adjacent cells
+CSS	bottom	sets the elements position, from the bottom of its parent element
+CSS	box-decoration-break	sets the behavior of the background and border of an element at page-break, or, for in line elements, at line break
+CSS	box-shadow	attaches one or more shadows to an element
+CSS	box-sizing	defines how much width and height of an element are calculated: should they include padding and borders, or not
+CSS	break-after	specifies the page, column, or region break behavior after the generated box
+CSS	break-before	specifies the page, column, or region break behavior before the generated box
+CSS	break-inside	specifies the page, column, or region break behavior inside the generated box
+CSS	caption-side	specifes the placement of a table caption
+CSS	caret-color	specifies the color of the cursor, caret, in inputs, textareas, or any element that is editable
+CSS	@charset	specifies the character encodeing used in the style sheet
+CSS	clear	specifies on which sides of an element floating elements are not allowed to float
+CSS	clip	clips an absolutely positioned element
+CSS	color	sets the color of text
+CSS	column-count	specifies the number of columns an element should be divided into
+CSS	column-fill	specifies how to fill columns, balanced or not
+CSS	column-gap	specifies the gap between columns
+CSS	column-rule	a shorthand property for all the column-rule-* properties
+CSS	column-rule-color	specifies the color of the rule between columns
+CSS	column-rule-style	specifies the style of the rule between columns
+CSS	column-rule-width	specifies the width of the rule between columns
+CSS	column-span	specifies how man columns an element should span across
+CSS	column-width	specifies the width of a column
+CSS	columns	a shorthand property for column-width and column-count
+CSS	content	used with the :before and :after psuedo-elements, to insert generated content
+CSS	counter-increment	increases or decreases the value of one or more CSS counters
+CSS	counter-reset	creates or resets one or more CSS counters
+CSS	cursor	specifies the mouse cursor to be displayed when pointing over an element
+CSS	direction	specifies the text direction/writing direction
+CSS	display	specifies how a certain HTML element should be displayed
+CSS	empty-cells	spcifies whether or not to display borders and background on empty cells in a table
+CSS	filter	Defines the effects (e.g. blurring or color shifting) on an element before the element is displayed
+CSS	flex	a shorthand property for the flex-grow, flex-shrink, and the flex-basis properties
+CSS	flex-basis	specifies the initial length of a flexible item
+CSS	flex-direction	specifies the direction of the flexible items
+CSS	flex-flow	a shorthand property for the flex-direction and flex-wrap properties
+CSS	flex-grow	specifies how much the item will grow relative to the rest
+CSS	flex-shrink		specifies how the item will shrink relative to the rest
+CSS	flex-wrap	specifies whether the flexible items should wrap or not
+CSS	float	specifies whether or not a box should float
+CSS	font	a shorthand property for the font-style, font-variant, font-weight, font-size/line-height, and the font-family properties
+CSS	@font-face	a rule that allows websites to download and use fonts other than the \"web-safe\" fonts
+CSS	font-family	specifies the font family for text
+CSS	font-feature-settings	allows control over advanced typographic features in OpenType fonts
+CSS	@font-feature-values	allows authors to use a common name in font-variant alternate for feature activated differently in OpenType
+CSS	font-kerning	controls the usage of the kerning information or letter spacing
+CSS	font-language-override	controls the language specific glyphs in a typeface
+CSS	font-size	specifies the font size or text
+CSS	font-size-adjust	preserves the readability of text when font fallback occurs
+CSS	font-stretch	selects a normal, condensed, or expanded face from the font-family
+CSS	font-style	specifies the font style of text
+CSS	font-synthesis	controls which missing typefaces (bold or italic) may be synthesized by the browser
+CSS	font-variant	specifies whether or not a text should be displayed in a small-caps font
+CSS	font-variant-alternatives	controls the usage of alternate glyphs associated to alternative names defined in @font-features-values
+CSS	font-variant-caps	controls the usage of alternate glyphs for capital letters
+CSS	font-variant-east-asian	controls the usage of alternate glyphs for east asian scripts
+CSS	font-variant-ligatures	controls which ligatures and contextual forms are used in textual content of the element it applies to
+CSS	font-variant-numeric	controls the usage of alternate glyphs for numbers, fractions, and ordinal numbers
+CSS	font-variant-position	controls the usage of alternate glyphs of smaller size positioned as superscript or subscript regarding the baseline of the font
+CSS	font-weight	specifies the weight of the font
+CSS	grid	a shorthand property for the grid-template-rows, grid-template-columns, grid-template-areas, grid-auto-rows, grid-auto-columns, and the grid-auto-flow properties
+CSS	grid-area	either specifies a name for a grid item or this property is a shorthand for the grid-row-start, grid-column-start, grid-row-end, and grid-column-end properties
+CSS	grid-auto-columns	specifies a default column size
+CSS	grid-auto-flow	specifies how auto-placed items are inserted in the grid
+CSS	grid-auto-rows	specifies a default row size
+CSS	grid-column	a shorthand property for the grid-column-start and the grid-column-end-properties
+CSS	grid-column-end	specifies where to end the grid item
+CSS	grid-column-gap	specifies the size of the gap between columns
+CSS	grid-column-start	specifies where to start the grid item
+CSS	grid-gap	a shorthand property for the grid-row-gap and grid-column-gap properties
+CSS	grid-row	a shorthand property for the grid-row-start and grid-row-end properties
+CSS	grid-row-end	specifies where to end the grid item
+CSS	grid-row-gap	specifies the size of the gap between rows
+CSS	grid-row-start	specifies where to start the grid item
+CSS	grid-template	a shorthand property for the grid-template-row, grid-template-columns and grid-areas properties
+CSS	grid-template-areas	specifies how to display columns and rows, using named grid items
+CSS	grid-template-columns	specifies the size of the columns, and how many columns in a grid layout
+CSS	grid-template-rows	specifies the size of the rows in a grid layout
+CSS	hanging-punctuation	specifies whether a punctuation character may be placed outside the line box
+CSS	height	sets the height of an element
+CSS	hyphens	sets how to split words to improve the layout of paragraphs
+CSS	image-rendering	gives a hint to the browser about what aspects of an image are most important to preserver when the image is scaled
+CSS	@import	allows you to import a stylesheet into another stylesheet
+CSS	isolation	defines whether an element must create a new stacking content
+CSS	jusitfy-content	specifies the alignment between the items inside a flexible container when the items do not use all available space
+CSS	@keyframes	specifies the animation code
+CSS	left	specifies the left position of a positioned element
+CSS	letter-spacing	increases or decrease the space between characters in a text
+CSS	line-break	specifies how/if to break lines
+CSS	line-height	sets the line height
+CSS	list-style	sets all properties for a list in one declaration
+CSS	list-style-images	specifies an image as the list-item marker (bullet points)
+CSS	list-style-position	specifies the position of the list-item markers (bullet points)
+CSS	list-style-type	specifies the type of list-item marker
+CSS	margin	sets all the amrgin properties in one declaration
+CSS	margin-bottom	sets the bottom margin of an element
+CSS	margin-left	sets the left margin of an element
+CSS	margin-right	sets the right margin of an element
+CSS	margin-top	sets the top margin of an element
+CSS	max-height	sets the maximum height of an element
+CSS	max-width	sets the maximum width of an element
+CSS	@media	sets the style rules for different media types/devices/sizes
+CSS	min-height	sets the minimum height of an element
+CSS	min-width	sets the minimum width of an element
+CSS	mix-blend-mode	specifies how an element's content should blend with its direct parent background
+CSS	object-fit	specifies how the contents of a replaced element should be fitted to the box established by its used height and width
+CSS	object-position	specifies the alignment of the replaced element inside its box
+CSS	opacity	sets the opacity level for an element
+CSS	order	sets the order of the flexible item, relative to the rest
+CSS	orphans	sets the minimum number of lines that must be left at the bottom of a page when a page break occurs inside an element
+CSS	outline	a shorthand property for the outline-width, outline-style and outline-color
+CSS	outline-color	sets the color of an outline
+CSS	outline-offset	offsets an outline, and draws it beyond the border edge
+CSS	outline-style	sets the style or type of an outline
+CSS	outline-width	sets the style or width of an outline
+CSS	overflow	specifies what happens if conent overflows an element's box
+CSS	overflow-wrap	soecufues whetherr or not the browser may break lines within words in order to prevent overflow (when a string is too long to fit inside its container)
+CSS	overflow-x	specifies whether or not to clip the left/right edges of the content, if it overflows the content area
+CSS	overflow-y	specifies whether or not to clip the top/bottom edges of the content, if it overflows the content area
+CSS	padding	a shorthand for all the padding-* properties
+CSS	padding-bottom	sets the bottom padding of an element
+CSS	padding-left	sets the right padding of an element
+CSS	padding-right	sets the left padding of an element
+CSS	padding-top	sets the top padding of an element
+CSS	page-break-after	sets the page break behavior after an element
+CSS	page-break-before	sets the page break behavior before an element
+CSS	page-break-inside	sets the page break behavior inside an element
+CSS	perspective	gives a 3D-positioned element some perspective
+CSS	perspective-origin	defines at which position the user is looking at the 3D-positioned element
+CSS	pointer-events	defines whether or not an element reacts to pointer events
+CSS	position	specifies the type of positioning method used for an element (static, relative, absolute or fixed)
+CSS	quotes	setst the type of quotations marks for embedded quotations
+CSS	resize	defines if and how an element is resizable by the user
+CSS	right	defines the right position of a positioned element
+CSS	scroll-behavior	specifies whether to smoothly animate the scroll position in a scrollable box, instead of a straight jump
+CSS	tab-size	specifies the width of a tab character
+CSS	table-layout	defines the algorithm used to lay out table cells, rows, and columns
+CSS	text-align	specifies the horizontal alignment of text
+CSS	text-align-last	describes how the last line of a block or a line right before a forced line break is aligned when text-align is "justify"
+CSS	text-combine-upright	specifies the combination of multiple characters into the space of a single character
+CSS	text-decoration	specifies the decoration added to text
+CSS	text-decoration-color	specifies the color of the text-decoration
+CSS	text-decoration-line	specifies the type of line in a text-decoration
+CSS	text-decoration-style	specifies the indentation of the first line in a text-block
+CSS	text-indent	specifies the indentation of the first line in a text-block
+CSS	text-justify	specifies the justification method used when text-align is "justify"
+CSS	text-orientation	defines the orientation of the text in a line
+CSS	text-overflow	specifies what should happen when text overflows the containing element
+CSS	text-shadow	adds a shadow to text
+CSS	text-transform	controls the capitalization of text
+CSS	text-underline-position	specifies the position of the underline which si set using the text-decoration property
+CSS	top	specifies the top position of a positioned element
+CSS	transform	applies a 2D or 3D transformation to an element
+CSS	transform-origin	allows you to change the position on transformed elements
+CSS	transform-style	specifies how nested elements are rendered in 3D space
+CSS	transition	a shorthand property for all the transition-* properties
+CSS	transition-delay	specifies when the transition effect will start
+CSS	transition-duration	specifies how many seconds or milliseconds a transition effect takes to complete
+CSS	transition-property	specifies the name of the CSS property the transition effect is for
+CSS	transition-timing-function specifies the speed curve of a transition effect
+CSS	unicode-bidi	used together with the direction property to set or return whether the text should be overriden to support multiple languages in the same document
+CSS	user-select	specifies whether text of an element can be selected
+CSS	vertical-align	sets the vertical aligment of an element
+CSS	visibility	specifies whether or not an element is visible
+CSS	white-space	specifies how white-space inside an element is handled
+CSS	widows	sets the minimum number of lines that must be left at the top of a page when a page break occurs inside an element
+CSS	width	sets the width of an element
+CSS	word-break	specifies how  words should break when reaching the end of a line
+CSS	word-spacing	increases or decreases the space between words in a text
+CSS	word-wrap	allows long unbreakable words to be broken and wrap to the next line
+CSS	writing-mode	specifies whether lines of text are laid out horizontally or vertically
+CSS	z-index	sets the stack order of a positioned element
